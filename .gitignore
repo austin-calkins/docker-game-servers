@@ -1,1 +1,16 @@
-data/*
+*.sw[op]
+gamedata/
+*.zip
+*.7z
+*.pk3
+*.jar
+*.gz
+*.tgz
+*.smx
+*.bz2
+/data
+wads/
+RemoteControlExamples/
+
+
+server_files/
