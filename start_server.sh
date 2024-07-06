@@ -35,7 +35,8 @@ ask_type() {
 
 
 
-[[ -z $NAME ]] && NAME=`select_name $TYPE`
+NAME=`select_name $TYPE`
+
 
 # chmod 777 because who knows what uid will own the data inside docker
 # #supersecure #bestpractices #lolsoz
